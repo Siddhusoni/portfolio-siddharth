@@ -1,0 +1,46 @@
+/* src/styles/Experience.css */
+
+.experience-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+    perspective: 1000px;
+}
+
+.experience-carousel {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.experience-card {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    transform-style: preserve-3d;
+}
+
+.experience-card:hover {
+    transform: scale(1.05) rotateY(5deg) rotateX(5deg);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.scroll-button-left {
+    left: 10px;
+}
+
+.scroll-button-right {
+    right: 10px;
+}

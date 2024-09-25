@@ -1,0 +1,14 @@
+/* src/styles/yourStyles.css */
+
+.transition-all {
+    transition: all 0.3s ease;
+  }
+  
+  .hover\:text-red-500:hover {
+    color: #ef4444; /* Adjust to your red color */
+  }
+  
+  .bg-gray-800 {
+    background-color: #2d3748; /* Adjust to your gray color */
+  }
+  
